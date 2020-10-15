@@ -1,6 +1,6 @@
 # Number-series-testing
 
-Unit tests for the following number serieses functions':
+Unit tests for the following number series functions:
 - Tribonacci
 - Pell numbers
 - Lucas numbers
