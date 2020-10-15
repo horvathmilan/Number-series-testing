@@ -1,0 +1,17 @@
+--- # Test data for the tribonacci(n) function
+testCase1: { input: 0, expected: 0, type: valid }
+testCase2: { input: 1, expected: 0, type: valid }
+testCase3: { input: 2, expected: 1, type: valid }
+testCase4: { input: 3, expected: 1, type: valid }
+testCase5:
+  {
+    input: -1,
+    expected: 'Exception: Negative number can not be used!',
+    type: exception,
+  }
+testCase6:
+  {
+    input: text,
+    expected: 'Exception: Only numbers can be used!',
+    type: exception,
+  }
